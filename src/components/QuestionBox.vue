@@ -23,7 +23,8 @@
 
 
 <script>
-import _ from lodash
+// Load the full build.
+let _ = require('lodash');
 export default {
   props: {
     currentQuestion: Object,
